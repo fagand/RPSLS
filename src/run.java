@@ -14,4 +14,9 @@ public class run {
         String compGesture = "paper";
         compare.compareGestures(userInput,compGesture);
     }
+    public void testDraw(){
+        String u = "rock";
+        String c = "rock";
+        compare.compareGestures(u,c);
+    }
 }
