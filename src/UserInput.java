@@ -23,6 +23,7 @@ public class UserInput {
                     System.exit(0);
                 }
                 validateInput();
+                break;
             }
             return v;
         } catch (Exception e) {
