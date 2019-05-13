@@ -1,6 +1,10 @@
 import java.util.Random;
-
-public class compGesture {
+/**
+ * @Author David Fagan
+ * Last modified 12/05/19
+ */
+public class ComputerGenerator {
+    // Method for getting a computer gesture to compare against the user gesture.
     public String compSelection (){
         String compGestureStr;
         int compNum;

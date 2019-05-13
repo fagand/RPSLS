@@ -1,7 +1,10 @@
 import javax.swing.*;
-import java.util.Objects;
 
-public class compareGestures {
+/**
+ * @Author David Fagan
+ * Last modified 12/05/19
+ */
+public class CompareGestures {
     // Method for displaying the message box bringing in user input (u), computer gesture (c), message (m) and result (r).
     public void messageBox(String u, String c, String m, int r) {
         //Draw
@@ -127,7 +130,7 @@ public class compareGestures {
                 "Play again?", "Do you want to play again?", JOptionPane.YES_NO_CANCEL_OPTION);
         // 0=yes, 1=no, 2=cancel
         if (continueValue == 0) {
-            run goAgain = new run();
+            Run goAgain = new Run();
             goAgain.runProgram();
         } else {
             System.exit(0);
